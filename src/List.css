@@ -1,0 +1,26 @@
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 40px;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    padding: 10px;
+     /* Overflow-y: auto;
+     Overflow-x: hidden; */
+}
+
+p{
+    /* padding: 20px; */
+    margin: 0;
+    max-width : 200px;
+    min-width : 200px;
+    word-wrap: break-word;
+}
+
+button{
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: rgb(241, 130, 102);
+    font-weight: 700;
+}

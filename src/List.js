@@ -13,7 +13,7 @@ function List({ itemList, updateList }) {
     // const arr = [1, 2, 3, 4, 5];
     // const newArr = arr.filter((item) => {
     //     return item > 2; //falsy value will be removed ~~ true will added newarr
-    // })
+    // })                 
     // console.log(newArr)
 
   return (
@@ -21,7 +21,7 @@ function List({ itemList, updateList }) {
           {itemList.map((itemObj) => {
               return (
                   <div className='item'>
-                    <p>{itemObj.item}</p>
+                      <p>{itemObj.item}</p>
                     <button onClick={() => deleteItems(itemObj.key)}>X</button>
                   </div>
               )
